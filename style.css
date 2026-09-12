@@ -4,34 +4,95 @@
     box-sizing: border-box;
 }
 
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5F5F5;
-    color: #333333;
+    background-color: #FCFAF8;
+    color: #263238;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-    background-color: white;
-    height: 80px;
+.navbar {
+    background-color: #263238 !important;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    gap: 30px;
+.navbar-brand {
+    color: #FFFFFF !important;
 }
 
-nav h2{
-    font-size: 28px;
-    font-weight: bold;
+.nav-link {
+    color: #FFFFFF !important;
 }
 
-nav ul li{
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s;
+.nav-link:hover {
+    color: #C58B9C !important;
+}
+
+
+
+#modo {
+    background-color: #C58B9C;
+    border-color: #C58B9C;
+    color: #FFFFFF;
+}
+
+#modo:hover {
+    background-color: #EAD9DE;
+    border-color: #EAD9DE;
+    color: #263238;
+}
+
+
+
+h1 {
+    color: #263238;
+}
+
+h2 {
+    color: #263238;
+}
+
+h4 {
+    color: #C58B9C;
+}
+
+
+
+.foto {
+    width: 200px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.badge {
+    background-color: #EAD9DE !important;
+    color: #263238 !important;
+    font-weight: normal;
+}
+
+
+
+.linkedin a {
+    color: #C58B9C;
+    text-decoration: none;
+}
+
+.linkedin a:hover {
+    color: #263238;
+}
+
+
+
+footer {
+    margin-top: 50px;
+    background-color: #263238 !important;
+    color: #FFFFFF;
 }
