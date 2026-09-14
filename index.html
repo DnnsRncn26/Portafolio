@@ -3,145 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Dannis Dayana Rincón</title>
+    <meta name="description" 
+    content="Portafolio profesional de Dannis Dayana Rincón, desarrolladora Web Junior Full Stack Java.">
+    <title>Full Stack Java | Dannis Dayana Rincón Guevara</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-white px-5 py-3">
+        <nav class="navbar navbar-expand-lg px-4 px-md-5 py-3">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#inicio">
-                    Dannis Dayana Rincón
-                </a>
+                <a class="navbar-brand fw-bold" href="index.html">Mi portafolio</a>
                 <button class="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#menu">
+                        data-bs-target="#menu"
+                        aria-controls="menu"
+                        aria-expanded="false"
+                        aria-label="Abrir menú">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="menu">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#inicio">
-                                Inicio
-                            </a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#proyectos">
-                                Proyectos
-                            </a>
+                            <a class="nav-link" href="proyectos.html">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cv">
-                                CV
-                            </a>
+                            <a class="nav-link" href="cv.html">CV</a>
                         </li>
-                        <li class="nav-item ms-3">
-                            <button id="modo" class="btn btn-secondary">
-                                ☾
-                            </button>
-                        </li>
-                    </ul>
-                </div>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<main>
+<section id="inicio" class="container py-5">
+<h2 class="text-center mb-4">Acerca de mí</h2>
+<div class="text-center">
+    <div class="foto mx-auto">
+        <img src="img/foto-perfil.jpg" alt="Foto Dannis">
+        </div>
+        <h3 class="mt-3">Dannis Dayana Rincón Guevara</h3>
+        <p>Desarrolladora Web Junior Full Stack Java</p>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8 text-center">
+            <p>Con conocimientos en el diseño, desarrollo y mantenimiento de aplicaciones web responsivas <br> y funcionales.</p>
+            <p>Me caracterizo por la resolución de problemas, atención al detalle y trabajo en equipo.</p>
+            <div class="mt-4">
+                <span class="badge">JavaScript</span>
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">Bootstrap</span>
+                <span class="badge">Java</span>
+                <span class="badge">SQL</span>
+                <span class="badge">Spring Boot</span>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section id="inicio" class="container py-5">
-            <h1 class="text-center mb-5">
-                Acerca de mí
-            </h1>
-            <div class="row align-items-center justify-content-center">
+        </div>
+    </div>
 
-                <div class="col-md-4 text-center">
-
-                    <div class="foto mx-auto">
-
-                        <img src="img/foto-perfil.jpg"
-                             alt="Foto de Dannis Dayana Rincón">
-
-                    </div>
-
-                </div>
-
-
-                <!-- INFORMACIÓN -->
-
-                <div class="col-md-6">
-
-                    <h2>
-                        Dannis Dayana Rincón
-                    </h2>
-
-                    <h4 class="fw-normal">
-                        Desarrolladora Junior Full Stack Java
-                    </h4>
-
-                    <p class="mt-4">
-                        Desarrolladora Junior Full Stack Java en formación,
-                        con interés en el desarrollo de aplicaciones web.
-                    </p>
-                    <p>
-                        Soy una persona persistente, proactiva y con
-                        disposición para aprender y fortalecer mis
-                        habilidades técnicas.
-                    </p>
-                    <div class="mt-4">
-                        <span class="badge text-bg-dark">
-                            HTML5
-                        </span>
-                        <span class="badge text-bg-dark">
-                            CSS3
-                        </span>
-                        <span class="badge text-bg-dark">
-                            JavaScript
-                        </span>
-                        <span class="badge text-bg-dark">
-                            Bootstrap
-                        </span>
-
-                        <span class="badge text-bg-dark">
-                            Java
-                        </span>
-                        <span class="badge text-bg-dark">
-                            SQL
-                        </span>
-                        <span class="badge text-bg-dark">
-                            Spring Boot
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <p>
-                    <strong>LinkedIn:</strong>
-                    <a href="https://www.linkedin.com/in/dannis-rincon-238231413/"
-                       target="_blank">
-                        Ver mi perfil
-                    </a>
-                </p>
-            </div>
-        </section>
-        <section id="proyectos" class="container py-5">
-            <h1 class="text-center mb-4">
-                Proyectos
-            </h1>
-            <p class="text-center">
-                Próximamente podrás conocer mis proyectos.
-            </p>
-        </section>
-        <section id="cv" class="container py-5">
-            <h1 class="text-center mb-4">CV</h1>
-            <p class="text-center">
-                Próximamente podrás consultar mi hoja de vida.
-            </p>
-        </section>
-    </main>
-    <footer class="text-center py-4 bg-white">
-        <p class="mb-0">© 2026 Dannis Rincón</p>
+<section class="mt-5 text-center">
+    <h3>Contacto</h3>
+    <p>Puedes contactarme a través de los siguientes enlaces:</p>
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/dannis-rincon-238231413/"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/DnnsRncn26"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="GitHub">
+            <i class="bi bi-github"></i>
+            <span>GitHub</span>
+        </a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=dannis.rincon1997@gmail.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Enviar correo electrónico">
+    <i class="bi bi-envelope"></i>
+    <span>Email</span>
+</a>
+    </div>
+</section>
+</section>
+</main>
+    <footer class="text-center py-4"><p class="mb-0">© 2026 Dannis Rincón. Todos los derechos reservados.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+     <script src="script.js"></script>
 </body>
 </html>
